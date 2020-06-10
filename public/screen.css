@@ -76,3 +76,7 @@ footer ul {
   padding: 1rem;
   margin-top: 0rem;
 }
+
+footer a:link, footer a:visited {
+  color: black;
+}
