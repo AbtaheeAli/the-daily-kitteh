@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-  margin: .5rem;
+  margin: 0.5rem;
   text-align: center;
   font-size: 4rem;
   margin-bottom: 1rem;
@@ -35,17 +35,18 @@ header ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: .5rem;
+  padding: 0.5rem;
   list-style: none;
   margin-bottom: 0rem;
   font-family: 'Open Sans', sans-serif;
 }
 
-header li+li {
+header li + li {
   margin-left: 1rem;
 }
 
-header a:link, header a:visited {
+header a:link,
+header a:visited {
   color: white;
 }
 
@@ -59,7 +60,7 @@ div {
   align-items: flex-start;
   padding: 2rem;
   border: 2px solid;
-  padding: .4rem;
+  padding: 0.4rem;
   border-color: rgb(0, 127, 151);
   margin: 1rem;
 }
@@ -111,12 +112,14 @@ footer ul {
   list-style: none;
   padding: 1rem;
   margin-top: 0rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
-footer a:link, footer a:visited {
+footer a:link,
+footer a:visited {
   color: black;
 }
 
-footer li+li {
+footer li + li {
   margin-left: 1rem;
 }
