@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&family=Open+Sans&family=Rubik:wght@700&display=swap');
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -33,9 +35,10 @@ header ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1rem;
+  padding: .5rem;
   list-style: none;
   margin-bottom: 0rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header li+li {
@@ -55,15 +58,17 @@ div {
   flex-direction: column;
   align-items: flex-start;
   padding: 2rem;
-  border: 4px solid;
-  padding: 1rem;
-  border-color: #2a5342;
+  border: 2px solid;
+  padding: .4rem;
+  border-color: rgb(0, 127, 151);
   margin: 1rem;
 }
 
 div h3 {
   margin: 0.4rem;
   text-align: left;
+  color: rgb(57, 74, 92);
+  font-family: 'Rubik', sans-serif;
 }
 
 div ul {
@@ -71,14 +76,31 @@ div ul {
   margin: 0.5rem;
 }
 
+div ul li {
+  font-family: 'Open Sans', sans-serif;
+}
+
 article {
   display: flex;
   flex-direction: column;
 }
 
+article h2 {
+  color: rgb(57, 74, 92);
+  font-family: 'Rubik', sans-serif;
+  padding: 1rem;
+  margin-bottom: 0rem;
+}
+
+article p {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 1rem;
+  margin-top: 0rem;
+}
+
 main {
   display: flex;
-  background-color: rgb(232, 232, 232);
+  background-color: rgb(216, 240, 241);
 }
 
 footer ul {
