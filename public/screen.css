@@ -79,6 +79,7 @@ div ul {
 
 div ul li {
   font-family: 'Open Sans', sans-serif;
+  padding: 0.1rem;
 }
 
 article {
