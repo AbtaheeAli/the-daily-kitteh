@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faustina&family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faustina&family=Open+Sans&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -26,7 +26,8 @@ header h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
-  font-family: 'Faustina', serif;
+  font-family: 'Neuton', serif;
+
   color: rgb(57, 74, 92);
 }
 
