@@ -4,4 +4,4 @@
 
 Languages and technologies used: HTML5, CSS, & CSS Flexbox
 
-Build onto my knowledge of HTML & CSS while learning flexbox techniques to layout pages.
+Built onto my knowledge of HTML & CSS while learning flexbox techniques to layout pages.
